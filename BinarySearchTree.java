@@ -88,7 +88,6 @@ class BinarySearchTreeTest {
   
   
   
-  
   public void delete(int value)
   {
       if (root == null)
