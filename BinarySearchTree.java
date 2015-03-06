@@ -86,7 +86,6 @@ class BinarySearchTreeTest {
     return currNode.value;
   }
   
-  
   public void delete(int value)
   {
       if (root == null)
