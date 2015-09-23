@@ -40,7 +40,7 @@ public class DFS_BFS {
 		N= 8;
 		G = new boolean[N][N];
 		
-		G[0][1]=G[1][0]=true; // notice that for each edge G[i][j] == G[j][i]
+		G[0][1]=G[1][0]=true;   // notice that for each edge G[i][j] == G[j][i]
 		G[0][2]=G[2][0]=true;	// this means that the graph is undirected
 		G[0][3]=G[3][0]=true;
 		G[1][4]=G[4][1]=true;
