@@ -126,5 +126,4 @@ public class DFS_BFS {
 		}
 		System.out.printf("Finished with the BFS from start node %d%n", start);
 	}
-	
 }
