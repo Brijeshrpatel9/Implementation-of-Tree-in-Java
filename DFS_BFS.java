@@ -120,7 +120,6 @@ public class DFS_BFS {
 					V[i] = true;
 					System.out.printf("Adding node %d to the queue in the BFS%n", i);
 				}
-				
 			}
 			System.out.printf("Done processing node %d%n", at);
 		}
