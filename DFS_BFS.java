@@ -104,6 +104,7 @@ public class DFS_BFS {
 	{
 		Queue<Integer> Q = new LinkedList<Integer>();
 		Q.offer(start);
+		
 		V[start] = true;
 		
 		while(!Q.isEmpty())
