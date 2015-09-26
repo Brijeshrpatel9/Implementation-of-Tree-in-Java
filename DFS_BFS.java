@@ -57,6 +57,7 @@ public class DFS_BFS {
 		int numComponents = 0;
 		
 		for(int i = 0; i < N; ++i)
+			
 			if(!V[i])
 			{
 				++numComponents;
