@@ -37,7 +37,7 @@ public class DFS_BFS {
 	public void setupGraph()
 	{
 	
-		N= 8;
+		N = 8;
 		G = new boolean[N][N];
 		
 		G[0][1]=G[1][0]=true;   // notice that for each edge G[i][j] == G[j][i]
