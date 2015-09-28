@@ -36,7 +36,6 @@ public class DFS_BFS {
 	
 	public void setupGraph()
 	{
-	
 		N = 8;
 		G = new boolean[N][N];
 		
