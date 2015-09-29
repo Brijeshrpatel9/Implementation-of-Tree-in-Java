@@ -32,6 +32,7 @@ class LDFS
 	public void create(int v1, int v2) throws NullPointerException
 	{
 		LDFS New = new LDFS(5);
+		
 		if( New == null)
 			System.out.println("Insufficient Memory.");
 		New.vertex = v2;
