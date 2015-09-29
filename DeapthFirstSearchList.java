@@ -37,6 +37,7 @@ class LDFS
 			System.out.println("Insufficient Memory.");
 		New.vertex = v2;
 		New.next = null;
+		
 		first = head[v1];
 		if(first == null)
 		{
