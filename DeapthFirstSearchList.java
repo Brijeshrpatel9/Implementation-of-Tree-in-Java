@@ -26,8 +26,7 @@ class LDFS
 			Queue[v1] = 0;
 			front = rear = -1;
 		for(v1 = 0; v1 < size; v1++)
-			visited[v1] = 0;
-		
+			visited[v1] = 0;	
 	}
 	
 	public void create(int v1, int v2) throws NullPointerException
