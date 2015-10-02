@@ -66,8 +66,7 @@ class LDFS
 			while(first.next != null)
 				first = first.next;
 			first.next = New;
-		}
-		
+		}	
 	}
 	
 	public void display()
