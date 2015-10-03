@@ -127,7 +127,6 @@ public class DeapthFirstSearchList {
 		ldfs.display();
 		System.out.println("");
 		System.out.println("The Deapth First Search of the graph is: ");
-		ldfs.DFS(1);
-		
+		ldfs.DFS(1);	
 	}
 }
