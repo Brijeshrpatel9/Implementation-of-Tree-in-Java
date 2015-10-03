@@ -97,7 +97,9 @@ class LDFS
 		first = head[v1];
 		while( first!= null)
 			if(visited[first.vertex] != 1)
+			{
 				DFS(first.vertex);
+			}
 			else
 				first = first.next;
 	}
