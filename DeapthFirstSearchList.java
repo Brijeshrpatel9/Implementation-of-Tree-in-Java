@@ -110,7 +110,6 @@ public class DeapthFirstSearchList {
 	{
 		LDFS ldfs = new LDFS(8);
 		
-		
 		ldfs.create(1, 6);
 		ldfs.create(1, 5);
 		ldfs.create(1, 2);
