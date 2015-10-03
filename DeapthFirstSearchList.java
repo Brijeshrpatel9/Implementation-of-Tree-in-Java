@@ -101,7 +101,9 @@ class LDFS
 				DFS(first.vertex);
 			}
 			else
+			{
 				first = first.next;
+			}
 	}
 }
 
