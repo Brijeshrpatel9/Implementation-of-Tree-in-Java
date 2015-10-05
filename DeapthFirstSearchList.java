@@ -120,8 +120,7 @@ public class DeapthFirstSearchList {
 		ldfs.create(2, 7);
 		ldfs.create(4, 3);
 		ldfs.create(5, 4);
-		ldfs.create(7, 4);
-		
+		ldfs.create(7, 4);		
 		ldfs.create(5, 6);
 		
 		ldfs.display();
