@@ -36,7 +36,6 @@ public class BTree<Key extends Comparable<Key>, Value>  {
     // return height of B-tree
     public int height() { return HT; }
 
-
     // search for given key, return associated value; return null if no such key
     public Value get(Key key) { return search(root, key, HT); }
     private Value search(Node x, Key key, int ht) {
